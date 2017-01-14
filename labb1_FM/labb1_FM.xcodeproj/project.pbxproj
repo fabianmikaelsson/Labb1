@@ -15,6 +15,7 @@
 		2DD0FE461E28106000361859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD0FE441E28106000361859 /* LaunchScreen.storyboard */; };
 		2DD0FE511E28106100361859 /* labb1_FMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0FE501E28106100361859 /* labb1_FMTests.m */; };
 		2DD0FE5C1E28106100361859 /* labb1_FMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0FE5B1E28106100361859 /* labb1_FMUITests.m */; };
+		2DE7A64F1E2A7400009CD60A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE7A64E1E2A7400009CD60A /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2DD0FE571E28106100361859 /* labb1_FMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = labb1_FMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD0FE5B1E28106100361859 /* labb1_FMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = labb1_FMUITests.m; sourceTree = "<group>"; };
 		2DD0FE5D1E28106100361859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE7A64E1E2A7400009CD60A /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				2DD0FE3A1E28106000361859 /* AppDelegate.m */,
 				2DD0FE3C1E28106000361859 /* ViewController.h */,
 				2DD0FE3D1E28106000361859 /* ViewController.m */,
+				2DE7A64E1E2A7400009CD60A /* Storyboard.storyboard */,
 				2DD0FE3F1E28106000361859 /* Main.storyboard */,
 				2DD0FE421E28106000361859 /* Assets.xcassets */,
 				2DD0FE441E28106000361859 /* LaunchScreen.storyboard */,
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DD0FE461E28106000361859 /* LaunchScreen.storyboard in Resources */,
+				2DE7A64F1E2A7400009CD60A /* Storyboard.storyboard in Resources */,
 				2DD0FE431E28106000361859 /* Assets.xcassets in Resources */,
 				2DD0FE411E28106000361859 /* Main.storyboard in Resources */,
 			);
@@ -507,6 +511,7 @@
 				2DD0FE621E28106100361859 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DD0FE631E28106100361859 /* Build configuration list for PBXNativeTarget "labb1_FMTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				2DD0FE651E28106100361859 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DD0FE661E28106100361859 /* Build configuration list for PBXNativeTarget "labb1_FMUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				2DD0FE681E28106100361859 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
