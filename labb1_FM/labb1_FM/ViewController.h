@@ -8,7 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    
+
+}
+- (IBAction)Blue;
+- (IBAction)Red;
+- (IBAction)Green;
+- (IBAction)Yellow;
 
 
 @end
